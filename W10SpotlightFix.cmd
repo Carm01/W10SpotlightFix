@@ -12,7 +12,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" 
 REG ADD "HKLM\softwareMicrosoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /d 1 /t REG_DWORD /f
 
 REG DELETE "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v "DisableWindowsConsumerFeatures" /f
-
+:: Before you blow away this key, make sure there is nothing else in it. The exact this to remove is: DisableWindowsConsumerFeatures if you are paranoid. This key does not exist normally.
 REG DELETE "HKLM\SOFTWARE\Policies\Microsoft\Windows\CloudContent" /f
 
 
