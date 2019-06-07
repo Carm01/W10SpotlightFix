@@ -21,3 +21,4 @@ _References:_
 - https://www.techsupportall.com/windows-spotlight-not-working-fix-it-easily/
 - https://www.intowindows.com/fix-windows-spotlight-not-working-in-windows-10/
 - https://windowsreport.com/windows-10-spotlight-issue/
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
