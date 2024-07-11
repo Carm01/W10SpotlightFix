@@ -9,7 +9,7 @@ PowerShell -ExecutionPolicy Unrestricted -Command "& {$manifest = (Get-AppxPacka
 
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v "SoftLandingEnabled" /d 1 /t REG_DWORD /f
 
-REG ADD "HKLM\softwareMicrosoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /d 1 /t REG_DWORD /f
+REG ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /d 1 /t REG_DWORD /f
 
 REG DELETE "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v "DisableWindowsConsumerFeatures" /f
 :: Before you blow away this key, make sure there is nothing else in it. The exact value to remove is: DisableWindowsConsumerFeatures if you are paranoid. The below key does not exist normally, it has to be added  manually or by GP.
